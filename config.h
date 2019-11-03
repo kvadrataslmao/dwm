@@ -9,13 +9,13 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "UbuntuMono Nerd Font:size=11" };
-static const char dmenufont[]       = "Ubuntu Mono Nerd Font:size=11";
-static const char col_gray1[]       = "#2e3440";
-static const char col_gray2[]       = "#2e3440";
+static const char *fonts[]          = { "UbuntuMonoNerdFont:size=12" };
+static const char dmenufont[]       = "UbuntuMonoNerdFont:size=12";
+static const char col_gray1[]       = "#2f363c";
+static const char col_gray2[]       = "#2f363c";
 static const char col_gray3[]       = "#d8dee9";
 static const char col_gray4[]       = "#d8dee9";
-static const char col_cyan[]        = "#bf616a";
+static const char col_cyan[]        = "#005577";
 static const unsigned int baralpha = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]      = {
@@ -29,7 +29,7 @@ static const unsigned int alphas[][3]      = {
 	[SchemeSel]  = { OPAQUE, baralpha, borderalpha },
 };
 
-static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
+static const char *tags[] = { "α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι" };
 
 /** Function to shift the current view to the left/right
  *
